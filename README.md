@@ -27,21 +27,18 @@ Displays the host OS details, kernel version, and Firefox license information.
 ```bash
 ./01_sys_identity.sh
 ```
-![System Identity Screenshot](screenshots/01_sys_identity.png)
 
 #### Script 2: FOSS Package Inspector
 Checks if Firefox is installed and provides philosophical notes on open-source networking tools.
 ```bash
 ./02_pkg_inspector.sh
 ```
-![Package Inspector Screenshot](screenshots/02_pkg_inspector.png)
 
 #### Script 3: Disk and Permission Auditor
 Loops through critical Firefox directories to check permissions and disk usage.
 ```bash
 ./03_dir_audit.sh
 ```
-![Directory Audit Screenshot](screenshots/03_dir_audit.png)
 
 #### Script 4: Log File Analyzer
 Analyzes log files for security errors (`SEC_ERROR`). It can take a custom file path and keyword as arguments.
@@ -52,14 +49,12 @@ Analyzes log files for security errors (`SEC_ERROR`). It can take a custom file 
 # To run on a specific file search for a specific keyword:
 ./04_log_analyzer.sh /var/log/syslog "error"
 ```
-![Log Analyzer Screenshot](screenshots/04_log_analyzer.png)
 
 #### Script 5: Open Source Manifesto Generator
 An interactive script that asks for your vision of the web and generates a personalized manifesto.
 ```bash
 ./05_manifesto_gen.sh
 ```
-![Manifesto Generator Screenshot](screenshots/05_manifesto_gen.png)
 
 ---
 
